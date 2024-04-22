@@ -3,13 +3,15 @@ import PageHeader from "./components/PageHeader.vue";
 import PageMain from "./components/PageMain.vue";
 import Hero from "./components/Hero.vue";
 import Banner from "./components/Banner.vue";
+import WorkingProcess from "./components/WorkingProcess.vue";
 export default {
   name: "App",
   components: {
     PageHeader,
     PageMain,
     Hero,
-    Banner
+    Banner,
+    WorkingProcess
   },
   data (){
     return {
