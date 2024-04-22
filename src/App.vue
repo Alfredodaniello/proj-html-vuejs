@@ -4,6 +4,23 @@ export default {
   name: "App",
   components: {
     PageHeader
+  },
+  data (){
+    return {
+      sections: [
+      {name:"HOME"},
+      {name:"PAGES"},
+      {name:"PORTFOLIO"},
+      {name:"BLOG"},
+      {name:"SHOP"},
+      {name:"ELEMENTS"},
+      ],
+      images: 
+        { 
+          logoUrl:"../assets/img/logo-sidearea-1.png",
+          imageUrl: "../assets/img/svg-1.svg"
+        }
+    }
   }
 }
 </script>
@@ -11,7 +28,7 @@ export default {
 <template>
 <div>
   <header>
-    <PageHeader></PageHeader>
+    <PageHeader :info="sections" :images="images"></PageHeader>
   </header>
   
 </div>
