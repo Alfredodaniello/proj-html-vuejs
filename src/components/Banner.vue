@@ -34,15 +34,16 @@ export default {
 <style scoped lang="scss">
 .square {
     width: calc(100% / 3);
-    height: 451.73px;
+    height: calc(100vw / 3);
     img {
         width: 100%;
         height: 100%;
     }
 }
 
-.container-fluid {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
+.container-fluid{
+    padding: 0; }
+    .row {
+        --bs-gutter-x: 0rem;
+    }
 </style>
