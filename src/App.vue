@@ -1,9 +1,13 @@
 <script >
 import PageHeader from "./components/PageHeader.vue";
+import PageMain from "./components/PageMain.vue";
+import Hero from "./components/Hero.vue";
 export default {
   name: "App",
   components: {
-    PageHeader
+    PageHeader,
+    PageMain,
+    Hero
   },
   data (){
     return {
@@ -30,7 +34,10 @@ export default {
   <header>
     <PageHeader :info="sections" :images="images"></PageHeader>
   </header>
-  
+
+  <main>
+<PageMain></PageMain>
+  </main>
 </div>
 </template>
 
