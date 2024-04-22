@@ -2,12 +2,14 @@
 import PageHeader from "./components/PageHeader.vue";
 import PageMain from "./components/PageMain.vue";
 import Hero from "./components/Hero.vue";
+import Banner from "./components/Banner.vue";
 export default {
   name: "App",
   components: {
     PageHeader,
     PageMain,
-    Hero
+    Hero,
+    Banner
   },
   data (){
     return {
