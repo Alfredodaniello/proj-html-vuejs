@@ -8,7 +8,7 @@ export default {
 <div class="container-fluid position-relative">
     <div class="row justify-content-center">
         <div class="col-4 px-5">
-            <h1>Devotion that Never ends</h1>
+            <h1>Devotion that Never <strong>ends</strong></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem</p>
             <button>Read More</button>
         </div>
@@ -55,6 +55,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
+
 .container-fluid {
     margin-top:100px;
 }
@@ -102,7 +103,7 @@ i {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: rgb(135, 135, 135);
 }
 
 .circle-right {
@@ -113,6 +114,9 @@ i {
 .circle-left{
     top: 35%;
     left: 1%;
+}
+h1 {
+    font-size: 50px;
 }
 
 </style>

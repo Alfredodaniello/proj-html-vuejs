@@ -8,7 +8,7 @@ export default {
 <div class="container-fluid">
     <div class="row">
         <div class="col-9 m-auto text-center mt-5 mb-5 position-relative">
-            <h1>Working process</h1>
+            <h1>Working <strong>process</strong></h1>
             <div class="line position-absolute">
                     <img src="../assets/img/svg-3.svg" alt="">
                 </div>

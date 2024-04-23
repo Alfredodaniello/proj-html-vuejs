@@ -8,7 +8,7 @@ export default {
 <div class="container-fluid ms-container">
     <div class="row">
         <div class="col-10 m-auto text-center mt-5">
-            <h1>Want to work with us? Send us a message!</h1>
+            <h1>Want to work with us? Send us <strong>a message</strong>!</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad alias veritatis non facere quia accusantium, tenetur eligendi sequi perspiciatis repudiandae fugiat laborum! Vitae rerum hic ipsa suscipit, aut atque eveniet.</p>
             <button>Contact</button>
         </div>
