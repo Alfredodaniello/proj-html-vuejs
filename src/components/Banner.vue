@@ -23,7 +23,11 @@ export default {
                 </div>
                 <img src="../assets/img/h-2-port-img-3.jpg" alt="">
             </div>
-            <div class="square">
+            <div class="square position-relative square-hover">
+                <div class="ms-hover position-absolute">
+                    <div>illistration of novels</div>
+                    <span>illustration</span>
+                </div>
                 <img src="../assets/img/h-2-port-img-4.jpg" alt="">
             </div>
             <div class="square">
@@ -129,6 +133,24 @@ export default {
 
 .fa-arrow-up{
     font-size: 75%;
+}
+
+.ms-hover {
+    display: none;
+    background-color: white;
+    padding: 5px 15px;
+    text-align: start;
+    height: 11%;
+    width: 40%;
+    left: 0;
+    top: 48%;
+    span {
+        font-style: italic;
+    }
+}
+
+.square-hover:hover .ms-hover {
+    display: block;
 }
 
 </style>
