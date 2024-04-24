@@ -40,6 +40,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use "../style/partials/generic" as *;
+@use "../style/partials/variables" as *;
 .circle {
     width: 100px;
     height: 100px;
@@ -65,5 +67,21 @@ i {
 }
 p {
     font-size: 14px;
+}
+
+.fa-lightbulb{
+    color: $brand-quartiary
+}
+
+.fa-comment {
+    color: $brand-icon-primary;
+}
+
+.fa-cloud {
+    color: $brand-icon-secondary
+}
+
+.fa-pen-clip {
+    color: $brand-icon-tertiary
 }
 </style>
