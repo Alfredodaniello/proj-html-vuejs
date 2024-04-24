@@ -9,7 +9,7 @@ export default {
     <div class="row justify-content-center">
         <div class="col-4 px-5">
             <h1>Devotion that Never <strong>ends</strong></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem Lorem ipsum dolor sit amet consectet</p>
             <button>Read More</button>
         </div>
         <div class="col-4">
@@ -48,16 +48,26 @@ export default {
         <div class="col-12 d-flex justify-content-center mt-4 gap-4">
             <div><i class="fa-solid fa-circle"></i></div>
             <div><i class="fa-solid fa-circle"></i></div>
-            <div><i class="fa-solid fa-circle"></i></div>
+            <div><i class="fa-solid fa-circle fa-circle-bot"></i></div>
         </div>
     </div>
 </div>
 </template>
 
 <style scoped lang="scss">
+@use "../style/partials/generic" as *;
+@use "../style/partials/variables" as *;
 
 .container-fluid {
     margin-top:100px;
+}
+
+.woman {
+    width: 335px;
+}
+
+.man {
+    width: 335px;
 }
 img {
     width: 100%;
@@ -96,6 +106,7 @@ img {
 }
 
 i {
+    color: white;
     font-size: 8px;
 }
 
@@ -107,16 +118,45 @@ i {
 }
 
 .circle-right {
+    background-color: $brand-primary;
     top: 35%;
     right: 1%;
 }
 
 .circle-left{
+    background-color: $brand-primary;
     top: 35%;
     left: 1%;
+
 }
 h1 {
     font-size: 50px;
 }
 
+button  {
+    font-weight: 600;
+    padding: 7px 30px;
+    border: $brand-primary 3px solid;
+background-color: white;}
+
+p{
+    color: $brand-secondary;
+}
+
+.fa-circle {
+    color: $brand-primary;
+}
+
+.fa-circle-bot {
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: $brand-primary;
+    color: white;
+}
+
+.circle-left:hover, .circle-right:hover {
+    border: white 2px solid;
+}
 </style>
