@@ -30,6 +30,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use "../style/partials/generic" as *;
+@use "../style/partials/variables" as *;
 .ms-header {
     height: 70px;
 }
@@ -41,6 +43,12 @@ export default {
         width: 100%;
         height: 100%;
     }
+}
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: $brand-primary
 }
 @media screen and (max-width: 768px) {
     .sections{

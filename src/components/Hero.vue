@@ -118,12 +118,14 @@ i {
 }
 
 .circle-right {
+    cursor: pointer;
     background-color: $brand-primary;
     top: 35%;
     right: 1%;
 }
 
 .circle-left{
+    cursor: pointer;
     background-color: $brand-primary;
     top: 35%;
     left: 1%;
@@ -144,6 +146,7 @@ p{
 }
 
 .fa-circle {
+    cursor: pointer;
     color: $brand-primary;
 }
 
