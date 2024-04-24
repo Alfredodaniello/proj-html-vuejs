@@ -84,4 +84,8 @@ p {
 .fa-pen-clip {
     color: $brand-icon-tertiary
 }
+
+p {
+    color: $brand-secondary
+}
 </style>
